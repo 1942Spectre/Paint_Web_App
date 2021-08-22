@@ -1,0 +1,258 @@
+
+* {
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Chrome & safari */
+	-ms-box-sizing: border-box; /* IE */
+	box-sizing: border-box;
+	
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+body {
+	margin: 0;
+}
+
+canvas {
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+
+
+#toolbar {
+	width: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	align-items: center;
+	background:black;
+	overflow: auto;
+	font-family:"Raleway", sans-serif;
+	border: none;
+  border-bottom: 50px;
+	
+	
+}
+
+#colors {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Verdana;
+	color: white;
+	
+}
+
+#Italic{
+		
+ color: white;
+ 
+}
+#shapes{
+	float:left;
+	
+	margin-left: 100px;
+	
+	position: relative;
+	text-align: center;
+	padding-left: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Verdana;
+	color: white;
+	display: inline;
+
+
+
+}
+
+
+
+#range {
+	position: relative;
+	float: left;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Verdana;
+	color: white;
+	white-space: nowrap;
+	margin-right: 20px;
+}
+#toolbar input[type="range"]{
+	-webkit-appearance: none;
+	background: purple;
+	
+	height:5px;
+	outline: none;
+	border:none;
+	border-radius: 2px;
+	
+
+}
+#toolbar input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	width: 15px;
+	height: 25px;
+	background:cyan;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#myRange{
+	background: pink;
+}
+#myColor, #myRange {
+	cursor: pointer;
+	
+	
+}
+#myColor{
+	border: none;
+	background: none;
+}
+
+#tri,#rect,#circle,#fill {
+	background:none; 
+	border: none; 
+
+	
+}
+#tria,#rec,#brus,#pe,#circ,#fill1,#un {
+	width: 22px; height: 25px;
+
+
+}
+#ere{
+	width: 29px; height: 29px;
+
+}
+#Pen{
+	margin-left: 15px;
+}
+
+
+#brush, #erase, #Pen,#undo{
+	position: relative;
+	float: left;
+	height: 30px;
+	width: 40px;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	padding-right: 15px;
+	background: none;
+	border: none;
+	 
+}
+
+#brush {
+	margin-right: 20px;
+}
+
+
+
+#reset:hover, #save:hover{
+	
+	background-color: #3498db;
+}
+
+
+
+
+#save{
+	display: flex;
+	height: 50px;
+	padding: 0;
+	float:right;
+	
+	overflow: hidden;
+
+	cursor: pointer;
+	margin-right: 10px;
+	
+	border: 1px solid #3498db;
+	position: relative;
+	color:white;
+	float: right;
+	font-size: 20px;
+	font-family: Verdana;
+	font-weight: 500;
+	background-color: purple;
+	transition: 0.9s;
+	
+	cursor: pointer;
+	
+
+
+	border-radius: 50px;    
+	
+  }
+  .button:hover {
+	background: #008168;
+  }
+  #reset{
+	  display: flex;
+	height: 50px;
+	padding: 0;
+	float:right;
+	
+	overflow: hidden;
+
+	cursor: pointer;
+	margin-right: 10px;
+	
+	border: 1px solid #3498db;
+	position: relative;
+	color:white;
+	float: right;
+	font-size: 20px;
+	font-family: Verdana;
+	font-weight: 500;
+	background-color: purple;
+	transition: 0.9s;
+	
+	cursor: pointer;
+	
+
+
+	border-radius: 50px;
+  
+  }
+  
+  .button__text,
+  .button__icon {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 24px;
+	color: #fff;
+	height: 100%;
+  }
+  
+  .button__icon {
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.08);
+  }
+
+div{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
